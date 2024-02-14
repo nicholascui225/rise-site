@@ -4,13 +4,14 @@ import Prizes from './components/prizes'
 import Rounds from './components/rounds'
 import Team from './components/team'
 import Schedule from './components/schedule'
+import Faq from './components/faq'
 
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col bg-black">
       <Hero></Hero>
       <About></About>
-      <Rounds></Rounds>
+      <Faq></Faq>
       <Prizes></Prizes>
       <Schedule></Schedule>
       <Team></Team>

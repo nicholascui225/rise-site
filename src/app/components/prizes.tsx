@@ -1,3 +1,4 @@
+import Placeholder from './placeholder'
 import { JetBrains_Mono } from 'next/font/google'
 
 const jbm = JetBrains_Mono({subsets: ["latin"], style: ["normal"]})
@@ -28,17 +29,21 @@ export default function Prizes() {
             <h1 className={`${jbm.className} text-amber-300 text-5xl`}>Prizes</h1>
             <p className='text-sm text-slate-300 mt-2 mb-4'>Full results will be announced after the tournament</p>
         </div>
-        <div className='w-full md:w-2/3 grid grid-cols-1 lg:grid-cols-2 gap-2'>
-            {prizes.map((prize, i) => (
-                <div key={i} className='bg-gray-800 p-4 rounded-md border-2 border-amber-300 flex flex-row items-center gap-5'>
-                    <div>
-                        <h1 className={`${jbm.className} text-amber-300 font-bold text-lg`}>0{i+1}.</h1>
+        <div className='w-full md:w-2/3 '>
+            <div className='grid grid-cols-1 lg:grid-cols-2 gap-2 w-full'>
+                 {/* {prizes.map((prize, i) => (
+                    <div key={i} className='bg-gray-800 p-4 rounded-md border-2 border-amber-300 flex flex-row items-center gap-5'>
+                        <div>
+                            <h1 className={`${jbm.className} text-amber-300 font-bold text-lg`}>0{i+1}.</h1>
+                        </div>
+                        <div>
+                            <h1 className={`${jbm.className} text-xl text-slate-300 font-extrabold`}>{prize.prize}!</h1>
+                        </div>
                     </div>
-                    <div>
-                        <h1 className={`${jbm.className} text-xl text-slate-300 font-extrabold`}>{prize.prize}!</h1>
-                    </div>
-                </div>
-            ))}
+                ))} */}
+            </div>
+           
+            <Placeholder content='To be announced...'></Placeholder>
         </div>
     </div>
 }

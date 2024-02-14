@@ -18,8 +18,8 @@ export default function Team() {
             <h1 className={`${jbm.className} text-amber-300 text-5xl`}>Our Team</h1>
         </div>
         <div className='w-full md:w-2/3 grid grid-cols-1 lg:grid-cols-2 gap-2'>
-            <div className='border-2 border-slate-800 rounded-md bg-gray-800'>
-                <div className='p-4 w-full border-b-2 border-b-slate-800'>
+            <div className='border-2 border-slate-700 rounded-md bg-gray-800'>
+                <div className='p-4 w-full border-b-2 border-b-slate-700'>
                     <h1 className={`${jbm.className} text-amber-300 text-lg font-bold`}>Centennial Organizers</h1>
                 </div>
                 <ul className='p-4'>
@@ -28,8 +28,8 @@ export default function Team() {
                     })}
                 </ul>
             </div>
-            <div className='border-2 border-slate-800 rounded-md bg-gray-800'>
-                <div className='p-4 w-full border-b-2 border-b-slate-800'>
+            <div className='border-2 border-slate-700 rounded-md bg-gray-800'>
+                <div className='p-4 w-full border-b-2 border-b-slate-700'>
                     <h1 className={`${jbm.className} text-amber-300 text-lg font-bold`}>Glenelg Organizers</h1>
                 </div>
                 <ul className='p-4'>

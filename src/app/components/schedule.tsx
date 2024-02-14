@@ -1,4 +1,5 @@
 import { JetBrains_Mono } from 'next/font/google'
+import Placeholder from './placeholder'
 
 const jbm = JetBrains_Mono({ subsets: ["latin"], style: ["normal"] })
 
@@ -9,7 +10,7 @@ export default function Schedule() {
             <h1 className={`${jbm.className} text-amber-300 text-5xl`}>Schedule</h1>
         </div>
         <div className='w-full xl:w-2/3 flex flex-col gap-1'>
-            <table className='table-auto border-2 border-collapse border-slate-800'>
+            {/* <table className='table-auto border-2 border-collapse border-slate-800'>
                 <thead className={`${jbm.className}`}>
                     <tr>
                         <th>Time</th>
@@ -54,7 +55,8 @@ export default function Schedule() {
                         <td>Awards</td>
                     </tr>
                 </tbody>
-            </table>
+            </table> */}
+            <Placeholder content='Under Construction...'></Placeholder>
         </div>
     </div>
 }

@@ -7,8 +7,8 @@ import Footer from './components/footer'
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: 'DECAGON Tournament',
-  description: "Centennial National Math Honors Society's and Glenelg National Math Honors Society's annual math tournament",
+  title: 'CInT',
+  description: "The Competitive Informatics Tournament!",
 }
 
 export default function RootLayout({

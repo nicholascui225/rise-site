@@ -9,32 +9,26 @@ export default function About() {
             <h1 className={`${jbm.className} text-amber-300 text-5xl`}>Overview </h1>
         </div>
         <div className='w-full md:w-2/3 flex flex-col gap-1'>
-            <h1 className={`${jbm.className} text-amber-300 font-bold text-xl`}>What is DECAGON?</h1>
+            <h1 className={`${jbm.className} text-amber-300 font-bold text-xl`}>What is CInT?</h1>
             <p>
-                The Centennial National Math Honor Society is partnering this year with the Glenelg National Math Honor Society to host the new DECAGON Tournament, a continuation of the annual CHS Mu Alpha Theta Tournament!
+                CInT, or Competitive Informatics Tournament, gives Middle and High School Students the opportunity to learn to code, apply problem solving skills, and make new friends with algorithm-based questions.
             </p>
             <p>
-                The tournament is a great way for competitors to test their math skills in a fun, low-stress competition.
+                Not only will winners be eligible for prizes from our sponsors, but will also be given opportunities to attend workshops held by guest speakers.
             </p>
+            <h1 className={`${jbm.className} text-amber-300 font-bold text-xl mt-4`}>Date & Location</h1>
             <p>
-                Students of all grades may register for free. If you plan to form a team with people you already know, please list the members of your team. If you register as an individual, we will place you on a team for the team round, so don’t worry!
+                This year, CInT will be held at Centennial High School 
+                <a className="link mx-1 text-amber-300" href="https://maps.app.goo.gl/vRjrU1QYevxyWkRS8" target="_blank" rel="noopener noreferrer">(4300 Centennial Lane, Ellicott City, MD, 21042)</a>
+                on April 20, 2024 from 1:00PM-8:00PM.
             </p>
-            <h1 className={`${jbm.className} text-amber-300 font-bold text-xl mt-4`}>Location</h1>
-            <p>
-                This year, we will be hosting at two locations: Centennial High School 
-                <a className="link mx-1 text-sky-50" href="https://maps.app.goo.gl/vRjrU1QYevxyWkRS8" target="_blank" rel="noopener noreferrer">(4300 Centennial Lane, Ellicott City, MD, 21042)</a>
-                and Glenelg High School 
-                <a className="link mx-1 text-sky-50" href="https://maps.app.goo.gl/hD43XwYAafoT5kobA" target="_blank" rel="noopener noreferrer">(14025 Burntwoods Rd, Glenelg, MD 21737)</a>
-
-            </p>
-            <h1 className={`${jbm.className} text-amber-300 font-bold text-xl mt-4`}>Lunch</h1>
-            <p>
-                We will be selling cheese and pepperoni pizza for $2 a slice. Please pay in cash or by check during registration.
-            </p>
-            <h1 className={`${jbm.className} text-amber-300 font-bold text-xl mt-4`}>Test Guidelines</h1>
-            <p>
-            All answers should be in simplest form. The only permitted materials are pencils and paper. Computational aids, including but not limited to calculators, rulers, protractors, and graph paper are strictly prohibited. 
-            </p>
+            <h1 className={`${jbm.className} text-amber-300 font-bold text-xl mt-4`}>Contest Rules</h1>
+            <ul className='list-outside list-disc ml-4'>
+                <li className='list-item'>Groups of up to four are allowed, but each student must register individually.</li>
+                <li className='list-item'>Students of all experience levels are welcome.</li>
+                <li className='list-item'>Groups my be formed in advance, but time will be provided to create teams at the event.</li>
+                <li className='list-item'>Prizes will be awarded to individual members on winning teams.</li>
+            </ul>
         </div>
     </div>
 }
