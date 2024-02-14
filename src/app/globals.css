@@ -17,17 +17,41 @@
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  @apply bg-gray-900 text-slate-200;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.link {
+  @apply text-amber-300 underline;
+}
+
+.link:hover {
+  @apply text-amber-500;
+}
+
+.btn-primary {
+  @apply bg-amber-300 p-2 text-gray-800 rounded-sm flex items-center justify-center;
+}
+
+.btn-primary:hover {
+  @apply bg-amber-400;
+}
+
+.btn-secondary {
+  @apply rounded-sm text-gray-800 p-2 bg-slate-200 border-2 flex items-center justify-center;
+}
+
+.btn-secondary:hover {
+  @apply bg-slate-300;
+}
+
+thead {
+  @apply bg-slate-800 text-amber-300 text-left;
+}
+
+th {
+  @apply p-1 md:p-3 border-2 text-slate-200 border-slate-800 font-extrabold;
+}
+
+td {
+  @apply p-1 md:p-3 border-2 text-slate-200 border-slate-800;
 }
