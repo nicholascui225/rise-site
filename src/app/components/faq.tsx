@@ -59,7 +59,7 @@ export default function Faq() {
             <h1 className={`${jbm.className} text-amber-300 text-5xl`}>FAQ</h1>
         </div>
         <div className='w-full md:w-2/3 flex flex-col gap-1'>
-            {qas.map(qa => <FaqQuestion question={qa.question} answer={qa.answer}/>)}
+            {qas.map((qa, index) => <FaqQuestion key={index} question={qa.question} answer={qa.answer}/>)}
         </div>
     </div>
 }

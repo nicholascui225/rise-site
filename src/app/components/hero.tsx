@@ -11,7 +11,6 @@ export default function Hero() {
     useEffect(() => {
         window.addEventListener("resize", () => handleResize());
         handleResize()
-        //draw();
     }, [handleResize, draw])
 
     function handleResize() {
