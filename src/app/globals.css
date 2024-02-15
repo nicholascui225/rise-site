@@ -6,10 +6,10 @@
   .constructionStripes {
     background: repeating-linear-gradient(
       45deg,
-      #fbbe2499,
-      #fbbf2499 20px,
-      #52525299 20px,
-      #52525299 40px
+      #fbbe24CC,
+      #fbbf24CC 20px,
+      #525252CC 20px,
+      #525252CC 40px
     );
   }
   

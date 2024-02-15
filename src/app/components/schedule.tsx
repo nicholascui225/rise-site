@@ -56,7 +56,7 @@ export default function Schedule() {
                     </tr>
                 </tbody>
             </table> */}
-            <Placeholder content='Under Construction...'></Placeholder>
+            <Placeholder content='To be announced...'></Placeholder>
         </div>
     </div>
 }

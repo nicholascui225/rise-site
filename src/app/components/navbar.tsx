@@ -6,7 +6,7 @@ export default function NavBar() {
     return <main className="bg-gray-900 flex flex-col items-center">
         <div className="w-full constructionStripes text-left border-b border-b-amber-400">
             <div className="bg-gradient-to-r from-gray-900 via-gray-900 to-transparent w-full h-full p-2">
-                <span className={`font-bold`}>Note: This website is still under development, more information will be available closer to the event!</span>  
+                <span className={`font-bold`}>Note: This website is still under development, more information will be available closer to the event.</span>  
             </div>
         </div>
         
