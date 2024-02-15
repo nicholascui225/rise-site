@@ -55,8 +55,9 @@ export default function Hero() {
                 <p className="text-sm md:text-base text-amber-300 font-bold">Competitive Informatics Tournament</p>
                 <p className={`${jbm.className} text-slate-400 text-xs`}>Compete, Learn, and Win Prizes!</p>
                 <div className="flex flex-row mt-4 gap-2">
-                    <a className={`${jbm.className} btn-primary`} href="https://docs.google.com/forms/d/e/1FAIpQLSeeC-h3OTe2GSN3e6pkJ3feinun5dQy8oQoBhUwVXs5WFh2Rg/viewform?usp=sf_link" target="_blank" rel="noopener noreferrer">Register</a>
-                    <a className={`${jbm.className} btn-secondary`} href="mailto:decagontournament@gmail.com" target="_blank" rel="noopener noreferrer">Discord</a>
+                    <button disabled={true} className={`${jbm.className} btn-primary`}>Register (Coming Soon...)</button>
+                    {/* <a className={`${jbm.className} btn-primary`}  href="https://docs.google.com/forms/d/e/1FAIpQLSeeC-h3OTe2GSN3e6pkJ3feinun5dQy8oQoBhUwVXs5WFh2Rg/viewform?usp=sf_link" target="_blank" rel="noopener noreferrer">Register</a> */}
+                    <a className={`${jbm.className} btn-secondary bg-blurple hover:bg-blurple-accent border-blurple hover:border-blurple-accent`} href="https://discord.gg/F2cHnv4vXd" target="_blank" rel="noopener noreferrer">Discord</a>
                 </div>
             </div>
         </div>
