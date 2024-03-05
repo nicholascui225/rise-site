@@ -20,7 +20,7 @@ export default function About() {
             <p>
                 This year, CInT will be held at Centennial High School 
                 <a className="link mx-1 text-amber-300" href="https://maps.app.goo.gl/vRjrU1QYevxyWkRS8" target="_blank" rel="noopener noreferrer">(4300 Centennial Lane, Ellicott City, MD, 21042)</a>
-                on April 20, 2024 from 1:00PM-8:00PM.
+                on May 4, 2024 from 1:00PM-8:00PM.
             </p>
             <h1 className={`${jbm.className} text-amber-300 font-bold text-xl mt-4`}>Contest Rules</h1>
             <ul className='list-outside list-disc ml-4'>

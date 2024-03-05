@@ -1,6 +1,6 @@
 "use client"
 import { JetBrains_Mono } from "next/font/google"
-import { createRef, useEffect, useRef } from "react"
+import { createRef, useCallback, useEffect, useRef } from "react"
 import Image from "next/image"
 
 const jbm = JetBrains_Mono({ subsets: ["latin"] })
@@ -8,13 +8,15 @@ const jbm = JetBrains_Mono({ subsets: ["latin"] })
 
 export default function Hero() {
     const canvasRef = useRef<HTMLCanvasElement>(null)
+    const drawCall = useCallback(draw, [])
+    const resizeCall = useCallback(handleResize, [drawCall])
     useEffect(() => {
         window.addEventListener("resize", () => handleResize());
-        handleResize()
-    }, [handleResize, draw])
+        resizeCall()
+    })
 
     function handleResize() {
-        console.log("resize!")
+        //console.log("resize!")
         if(canvasRef.current) {
             const parent = canvasRef.current.parentElement;
 
@@ -24,7 +26,7 @@ export default function Hero() {
                 canvasRef.current.height = rect.height;
             }
         }
-        draw()
+        drawCall()
     }
 
     function draw() {
@@ -47,10 +49,10 @@ export default function Hero() {
     }
 
     return <main className="bg-gray-900 relative border-y-2 border-y-yellow-600 min-h-96 overflow-hidden" style={{height: "66vh"}}>
-        <canvas onResize={handleResize} ref={canvasRef} className="relative top-0 left-0"> </canvas>
+        <canvas onResize={resizeCall} ref={canvasRef} className="relative top-0 left-0"> </canvas>
         <div className="flex flex-row items-center z-20 absolute top-0 left-0 w-full h-full p-8 bg-opacity-50 bg-slate-950 md:bg-opacity-100 md:bg-transparent md:bg-gradient-to-l md:via-90% md:via-slate-900 md:from-transparent md:to-slate-900">
             <div className="md:w-1/2 w-full">
-                <p className={`${jbm.className} text-slate-200 text-sm mb-1`}>04/20/2024</p>
+                <p className={`${jbm.className} text-slate-200 text-sm mb-1`}>05/04/2024</p>
                 <h1 className={`${jbm.className} text-6xl md:text-8xl font-bold mb-1`}>CInT</h1>
                 <p className="text-sm md:text-base text-amber-300 font-bold">Competitive Informatics Tournament</p>
                 <p className={`${jbm.className} text-slate-400 text-xs`}>Compete, Learn, and Win Prizes!</p>
