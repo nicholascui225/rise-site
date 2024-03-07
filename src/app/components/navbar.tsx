@@ -14,9 +14,9 @@ export default function NavBar() {
             <span className={`${jbm.className} text-amber-300 text-2xl font-bold`}> CInT </span>
             <div className="flex-1"></div>
             <div className="flex flex-row gap-2 items-center text-sm">
-                <button disabled={true} className={`${jbm.className} btn-primary`}>Register</button>
+                {/* <button disabled={true} className={`${jbm.className} btn-primary`}>Register</button> */}
 
-                {/* <a className={`${jbm.className} btn-primary text-sm`} href="https://docs.google.com/forms/d/e/1FAIpQLSeeC-h3OTe2GSN3e6pkJ3feinun5dQy8oQoBhUwVXs5WFh2Rg/viewform?usp=sf_link" target="_blank" rel="noopener noreferrer">Register</a> */}
+                <a className={`${jbm.className} btn-primary text-sm`} href="https://forms.gle/ctJPAKktFs2bPQYz5" target="_blank" rel="noopener noreferrer">Register</a>
             </div>
         </div>
        
