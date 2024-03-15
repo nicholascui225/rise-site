@@ -5,6 +5,7 @@ import Rounds from './components/rounds'
 import Team from './components/team'
 import Schedule from './components/schedule'
 import Faq from './components/faq'
+import Sponsors from './components/sponsors'
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <Faq></Faq>
       {/* <Prizes></Prizes> */}
       <Schedule></Schedule>
+      <Sponsors></Sponsors>
       {/* <Team></Team> */}
     </main>
   )
