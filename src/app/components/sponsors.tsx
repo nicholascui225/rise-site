@@ -12,7 +12,7 @@ export default function Sponsors() {
         <div className="p-2 bg-gray-600 text-slate-200">
           <h1 className={`${jbm.className} text-lg`}>Silver</h1>
         </div>
-        <div className="flex flex-row flex-wrap justify-center p-2 bg-gray-600/30">
+        <div className="flex flex-row flex-wrap justify-center p-2 bg-gray-600/3 gap-2">
           <a href="https://www.interviewcake.com/" target='_blank'>
             <img src="/sponsors/interview-cake.svg" className='h-24' alt="Interview Cake Logo" />
           </a>
@@ -23,9 +23,17 @@ export default function Sponsors() {
         <div className="p-2 bg-amber-700 text-slate-200">
           <h1 className={`${jbm.className} text-lg`}>Bronze</h1>
         </div>
-        <div className="flex flex-row flex-wrap justify-center p-2 bg-amber-700/30">
-          <a href="https://artofproblemsolving.com/" target='_blank' className='bg-slate-300 p-1 rounded'>
+        <div className="flex flex-row flex-wrap justify-center p-2 bg-amber-700/30 gap-4">
+          <a href="https://artofproblemsolving.com/" target='_blank' className='bg-slate-200 p-1 rounded'>
             <img src="/sponsors/aops.png" className='h-24' alt="AOPS Logo" />
+          </a>
+
+          <a href="https://1password.com/" target='_blank' className='p-1 rounded'>
+            <img src="/sponsors/1password.svg" className='h-24' alt="1Password Logo" />
+          </a>
+
+          <a href="https://www.smythjewelers.com/" target='_blank' className='p-1 rounded'>
+            <img src="/sponsors/smyth.webp" className='h-24' alt="Smyth Jewelers Logo" />
           </a>
         </div>
       </div>
