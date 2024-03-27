@@ -14,10 +14,10 @@ export default function Sponsors() {
         </div>
         <div className="flex flex-row flex-wrap justify-center items-center p-4 bg-gray-600/3 gap-8">
           <a href="https://www.interviewcake.com/" target='_blank'>
-            <img src="/sponsors/interview-cake.svg" className='h-32' alt="Interview Cake Logo" />
+            <img src="/sponsors/interview-cake.svg" className='h-24' alt="Interview Cake Logo" />
           </a>
           <a href="https://www.janestreet.com/" target='_blank'>
-            <img src="sponsors/jane-street.png" className='h-32' alt="Jane Street Logo" />
+            <img src="sponsors/jane-street.png" className='h-24' alt="Jane Street Logo" />
           </a>
         </div>
       </div>
