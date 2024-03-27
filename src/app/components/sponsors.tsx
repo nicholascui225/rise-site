@@ -12,9 +12,12 @@ export default function Sponsors() {
         <div className="p-2 bg-gray-600 text-slate-200">
           <h1 className={`${jbm.className} text-lg`}>Silver</h1>
         </div>
-        <div className="flex flex-row flex-wrap justify-center p-2 bg-gray-600/3 gap-2">
+        <div className="flex flex-row flex-wrap justify-center items-center p-4 bg-gray-600/3 gap-8">
           <a href="https://www.interviewcake.com/" target='_blank'>
-            <img src="/sponsors/interview-cake.svg" className='h-24' alt="Interview Cake Logo" />
+            <img src="/sponsors/interview-cake.svg" className='h-32' alt="Interview Cake Logo" />
+          </a>
+          <a href="https://www.janestreet.com/" target='_blank'>
+            <img src="sponsors/jane-street.png" className='h-32' alt="Jane Street Logo" />
           </a>
         </div>
       </div>
@@ -23,7 +26,7 @@ export default function Sponsors() {
         <div className="p-2 bg-amber-700 text-slate-200">
           <h1 className={`${jbm.className} text-lg`}>Bronze</h1>
         </div>
-        <div className="flex flex-row flex-wrap justify-center p-2 bg-amber-700/30 gap-4">
+        <div className="flex flex-row flex-wrap justify-center p-4 items-center bg-amber-700/30 gap-8">
           <a href="https://artofproblemsolving.com/" target='_blank' className='bg-slate-200 p-1 rounded'>
             <img src="/sponsors/aops.png" className='h-24' alt="AOPS Logo" />
           </a>
