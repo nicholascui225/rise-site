@@ -1,5 +1,4 @@
 import { JetBrains_Mono } from 'next/font/google'
-import Placeholder from './placeholder'
 
 const jbm = JetBrains_Mono({ subsets: ["latin"], style: ["normal"] })
 
@@ -10,7 +9,7 @@ export default function Schedule() {
             <h1 className={`${jbm.className} text-amber-300 text-5xl`}>Schedule</h1>
         </div>
         <div className='w-full xl:w-2/3 flex flex-col gap-1'>
-            {/* <table className='table-auto border-2 border-collapse border-slate-800'>
+            <table className='table table-auto border-2 border-collapse border-slate-800'>
                 <thead className={`${jbm.className}`}>
                     <tr>
                         <th>Time</th>
@@ -19,44 +18,31 @@ export default function Schedule() {
                 </thead>
                 <tbody>
                     <tr>
-                        <td>8:10 AM - 8:40 AM</td>
-                        <td>Check-in</td>
+                        <td>1:00 - 1:45 PM</td>
+                        <td>Registration</td>
                     </tr>
                     <tr>
-                        <td>8:40 AM - 8:55 AM</td>
+                        <td>1:45 - 2:00 PM</td>
                         <td>Opening Ceremony</td>
                     </tr>
                     <tr>
-                        <td>9:05 AM - 10:05 AM</td>
-                        <td>Individual Round 1</td>
+                        <td>2:00 PM</td>
+                        <td>Tournament Begins</td>
                     </tr>
                     <tr>
-                        <td>10:15 AM - 11:15 AM</td>
-                        <td>Individual Round 2</td>
+                        <td>6:00 PM</td>
+                        <td>Dinner</td>
                     </tr>
                     <tr>
-                        <td>11:25 AM - 11:55 AM</td>
-                        <td>Team Round</td>
+                        <td>7:30 PM</td>
+                        <td>Closing Ceremony</td>
                     </tr>
                     <tr>
-                        <td>12:00 PM - 1:00 PM</td>
-                        <td>Lunch + Theme Round Rules Explanation</td>
-                    </tr>
-                    <tr>
-                        <td>1:00 PM - 1:30 PM</td>
-                        <td>Theme Round</td>
-                    </tr>
-                    <tr>
-                        <td>1:40 PM - 2:20 PM</td>
-                        <td>Countdown Round</td>
-                    </tr>
-                    <tr>
-                        <td>2:20 PM - 2:30 PM</td>
-                        <td>Awards</td>
+                        <td>8:00 PM</td>
+                        <td>End of Event</td>
                     </tr>
                 </tbody>
-            </table> */}
-            <Placeholder content='To be announced...'></Placeholder>
+            </table>
         </div>
     </div>
 }
