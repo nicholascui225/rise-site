@@ -50,10 +50,10 @@
   }
 
   th {
-    @apply p-1 md:p-3 border-2 text-slate-200 border-slate-800 font-extrabold;
+    @apply p-3 border-2 text-slate-200 border-slate-800 font-extrabold;
   }
 
   td {
-    @apply p-1 md:p-3 border-2 text-slate-200 border-slate-800;
+    @apply p-3 border-2 text-slate-200 border-slate-800;
   }
 }
