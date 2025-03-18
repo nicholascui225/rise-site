@@ -6,8 +6,8 @@
   .constructionStripes {
     background: repeating-linear-gradient(
       45deg,
-      #fbbe24CC,
-      #fbbf24CC 20px,
+      #22c55e,
+      #22c55e 20px,
       #525252CC 20px,
       #525252CC 40px
     );
@@ -18,19 +18,19 @@
   }
 
   .link {
-    @apply text-amber-300 underline;
+    @apply text-primary-300 underline;
   }
 
   .link:hover {
-    @apply text-amber-500;
+    @apply text-primary-500;
   }
 
   .btn-primary {
-    @apply bg-amber-300 p-2 text-gray-800 rounded-sm flex items-center justify-center;
+    @apply bg-primary-300 p-2 text-gray-800 rounded-sm flex items-center justify-center;
   }
 
   .btn-primary:hover {
-    @apply bg-amber-400;
+    @apply bg-primary-400;
   }
 
   .btn-primary:disabled {
@@ -46,7 +46,7 @@
   }
 
   thead {
-    @apply bg-slate-800 text-amber-300 text-left;
+    @apply bg-slate-800 text-primary-300 text-left;
   }
 
   th {

@@ -15,8 +15,8 @@ export default function Home() {
       <Faq></Faq>
       {/* <Prizes></Prizes> */}
       <Schedule></Schedule>
-      <Sponsors></Sponsors>
-      {/* <Team></Team> */}
+      {/* <Sponsors></Sponsors> */}
+      <Team></Team>
     </main>
   )
 }

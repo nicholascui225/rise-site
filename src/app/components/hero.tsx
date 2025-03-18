@@ -34,7 +34,7 @@ export default function Hero() {
         if (canvas) {
             const context = canvas.getContext("2d");
             context?.clearRect(0, 0, canvas.width, canvas.height)
-            context!.strokeStyle = "#fbbf24"
+            context!.strokeStyle = "#22c55e"
 
             context!.translate(canvas.width + 20, canvas.height / 2);
             let size: number = 20
@@ -48,18 +48,18 @@ export default function Hero() {
         }
     }
 
-    return <main className="bg-gray-900 relative border-y-2 border-y-yellow-600 min-h-96 overflow-hidden" style={{ height: "66vh" }}>
+    return <main className="bg-gray-900 relative border-y-2 border-y-green-600 min-h-96 overflow-hidden" style={{ height: "66vh" }}>
         <canvas onResize={resizeCall} ref={canvasRef} className="relative top-0 left-0"> </canvas>
         <div className="flex flex-row items-center z-20 absolute top-0 left-0 w-full h-full p-8 bg-opacity-50 bg-slate-950 md:bg-opacity-100 md:bg-transparent md:bg-gradient-to-l md:via-90% md:via-slate-900 md:from-transparent md:to-slate-900">
             <div className="md:w-1/2 w-full">
-                <p className={`${jbm.className} text-slate-200 text-sm mb-1`}>05/04/2024</p>
-                <h1 className={`${jbm.className} text-6xl md:text-8xl font-bold mb-1`}>CInT</h1>
-                <p className="text-sm md:text-base text-amber-300 font-bold">Competitive Informatics Tournament</p>
-                <p className={`${jbm.className} text-slate-400 text-xs`}>Compete, Learn, and Win Prizes!</p>
+                <p className={`${jbm.className} text-slate-200 text-sm mb-1`}>04/02/2025</p>
+                <h1 className={`${jbm.className} text-6xl md:text-8xl font-bold mb-1`}>RISE</h1>
+                <p className="text-sm md:text-base text-primary-300 font-bold">Research in Science and Engineering Conference</p>
+                <p className={`${jbm.className} text-slate-400 text-xs`}>Learn about fascinating research. Develop new passions. Connect with leaders.</p>
                 <div className="flex flex-row mt-4 gap-2">
                     {/* <button disabled={true} className={`${jbm.className} btn-primary`}>Register (Coming Soon...)</button> */}
-                    <a className={`${jbm.className} btn-primary max-w-60 w-full`} href="https://forms.gle/ctJPAKktFs2bPQYz5" target="_blank" rel="noopener noreferrer">Register</a>
-                    <a className={`${jbm.className} btn-secondary bg-blurple hover:bg-blurple-accent border-blurple hover:border-blurple-accent`} href="https://discord.gg/zBQa5MV9Vv" target="_blank" rel="noopener noreferrer">Discord</a>
+                    <a className={`font-mono btn-primary`} href="https://docs.google.com/forms/d/e/1FAIpQLSftBT9XtvrpFJcUUSwQiNTM8egGTcK94wbBoC6L5pliici7pA/viewform?usp=header" target="_blank" rel="noopener noreferrer">Register</a>
+                    <a className={`font-mono btn-secondary`} href="mailto:chssnhsboard@gmail.com" target="_blank" rel="noopener noreferrer">Contact</a>
                 </div>
             </div>
         </div>
