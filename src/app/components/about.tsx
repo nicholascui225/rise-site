@@ -14,7 +14,7 @@ export default function About() {
                 The RISE conference, or Research in Science and Engineering conference, gives middle schoolers, high schoolers, and lifelong learners in our community an opportunity to explore their passions, gain guidance, and learn the value of science education in the fields of science, math, and engineering.
             </p>
             <p>
-                Attendees will attend workshops presented by professors and professionals with STEM backgrounds and careers, gaining valuable insight and advice. Additionally, many STEM clubs from Centennial's community will present booths during dinner.
+                Attendees will attend workshops presented by professors and professionals with STEM backgrounds and careers, gaining valuable insight and advice. Additionally, many STEM clubs from Centennial&apos;s community will present booths during dinner.
             </p>
             <h1 className={`${jbm.className} text-primary-300 font-bold text-xl mt-4`}>Date & Location</h1>
             <p>
