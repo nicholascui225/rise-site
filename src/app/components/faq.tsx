@@ -12,27 +12,27 @@ export default function Faq() {
 
     let qas = [
         {
-            question: "William (Bill) Gasarch",
+            question: "Dr. William (Bill) Gasarch",
             answer: `Competitive programming is a mind sport in which participants try to program according to provided specifications. Essentially, it's a fun mixture of problem solving and programming!`
         },
         {
-            question: "Y'aaqob Aisin",
+            question: "Mr. Y'aaqob Aisin",
             answer: `None, anybody can attend our tournament to learn more about programming! However, if you are interested in competing, any basic understanding of a programming language such as Java, C++, or Python would do!`
         },
         {
-            question: "Belen Avelar",
+            question: "Ms. Belen Avelar",
             answer: `Attending this event is completely free, and all you need is a computer (Chromebook can work too)`
         },
         {
-            question: "Carolyn Ernst",
+            question: "Dr. Carolyn Ernst",
             answer: "Of course you can! You have to be in Middle or High School to be eligible for prizes though."
         },
         {
-            question: "Lisa Scheifele",
+            question: "Dr. Lisa Scheifele",
             answer: "YES! We will have FREE FOOD!"
         },
         {
-            question: "Michelle A. Starz-Gaiano",
+            question: "Dr. Michelle A. Starz-Gaiano",
             answer: `There will be (amazing) prizes thanks to our sponsors, but the specific content is top secret! Come find out on the day of!`
         },
     ] as QuestionAnswer[]

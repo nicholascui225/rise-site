@@ -10,7 +10,7 @@ export default function NavBar() {
             <div className="flex flex-row gap-2 items-center text-sm">
                 {/* <button disabled={true} className={`${jbm.className} btn-primary`}>Register</button> */}
 
-                <a className={`${jbm.className} btn-primary text-sm`} href="https://forms.gle/ctJPAKktFs2bPQYz5" target="_blank" rel="noopener noreferrer">Register</a>
+                <a className={`${jbm.className} btn-primary text-sm`} href="http://docs.google.com/forms/d/e/1FAIpQLSdN2Y8Ia2HHhnSjfnNR1OUD_-uVdCE4Wp9KCCzq1VA2x8MJAQ/viewform" target="_blank" rel="noopener noreferrer">Register</a>
             </div>
         </div>
 
