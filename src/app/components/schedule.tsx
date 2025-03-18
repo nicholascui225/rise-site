@@ -3,7 +3,7 @@ import { JetBrains_Mono } from 'next/font/google'
 const jbm = JetBrains_Mono({ subsets: ["latin"], style: ["normal"] })
 
 export default function Schedule() {
-    return <div className='flex flex-col xl:flex-row bg-gray-950 p-4 pt-16 md:p-8 md:pt-20 gap-9 md:gap-9 items-top'>
+    return <div className='flex flex-col xl:flex-row bg-gray-900 p-4 pt-16 md:p-8 md:pt-20 gap-9 md:gap-9 items-top'>
         <div className='grow border-b-primary-300 border-b-2'>
             <p className={`${jbm.className} text-slate-300 text-sm`}> -&gt; 03.</p>
             <h1 className={`${jbm.className} text-primary-300 text-5xl`}>Schedule</h1>
