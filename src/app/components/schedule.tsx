@@ -23,7 +23,7 @@ export default function Schedule() {
                     </tr>
                     <tr>
                         <td>5:45 PM</td>
-                        <td>Attendees</td>
+                        <td>Attendees check-in</td>
                     </tr>
                     <tr>
                         <td>6:00 - 6:20 PM </td>

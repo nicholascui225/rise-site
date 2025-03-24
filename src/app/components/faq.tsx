@@ -35,6 +35,10 @@ export default function Faq() {
             question: "Dr. Michelle A. Starz-Gaiano",
             answer: `Speaker profiles coming soon!`
         },
+        {
+            question: "Bipen Basnyat",
+            answer: `Speaker profiles coming soon!`
+        },
     ] as QuestionAnswer[]
 
     return <div className='flex flex-col md:flex-row bg-gray-900 p-4 pt-16 md:p-8 md:pt-20 gap-9 md:gap-9 items-top'>
