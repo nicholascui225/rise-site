@@ -36,7 +36,7 @@ export default function Faq() {
             answer: `Speaker profiles coming soon!`
         },
         {
-            question: "Bipen Basnyat",
+            question: "Dr. Bipen Basnyat",
             answer: `Speaker profiles coming soon!`
         },
     ] as QuestionAnswer[]
