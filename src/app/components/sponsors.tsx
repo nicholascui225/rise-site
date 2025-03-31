@@ -53,7 +53,7 @@ export default function Sponsors() {
           </div>
           <div className="flex flex-row flex-wrap justify-center items-center p-4 bg-gray-600/30 gap-8">
             {images2022.map((image, index) => (
-              <img key={index} src={`/pics/${image}`} className='h-72' alt={`Image ${index}`} />
+              <img key={index} src={`/pics/2022/${image}`} className='h-72' alt={`Image ${index}`} />
             ))}
           </div>
         </div>
