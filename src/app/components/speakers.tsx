@@ -4,7 +4,7 @@ import FaqQuestion from './faq-question/faqQuestion'
 
 const jbm = JetBrains_Mono({subsets: ["latin"], style: ["normal"]})
 
-export default function Faq() {
+export default function Speakers() {
     type Speaker = {
         name: string
         bio: string
@@ -107,31 +107,6 @@ export default function Faq() {
         </div>
     )
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 // import { JetBrains_Mono } from 'next/font/google'
 // import Placeholder from './placeholder'

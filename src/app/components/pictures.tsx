@@ -26,7 +26,7 @@ const images2023 = [
   "9.jpg"
 ];
 
-export default function Sponsors() {
+export default function Pictures() {
   return (
     <div className='flex flex-col md:flex-row bg-gray-900 p-4 pt-16 md:p-8 md:pt-20 gap-9 md:gap-9 items-top'>
       <div className='grow border-b-primary-300 border-b-2'>
