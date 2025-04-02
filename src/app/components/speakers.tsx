@@ -21,13 +21,13 @@ export default function Speakers() {
         },
         {
             name: "Mr. Y'aaqob Aisin",
-            bio: `Yaaqob Aisin is a machine learning engineer and quantum technology researcher at the University of Maryland, with experience in both government and academic settings. In his workshop, AI and Quantum Technology: The Duality of Hype and Anti-Hype, he’ll break down key concepts in AI and quantum tech while offering perspectives you won’t find in headlines or classrooms—with a possible live demo on a real quantum computer.`,
+            bio: `Mr. Yaaqob Aisin is a machine learning engineer and quantum technology researcher at the University of Maryland, with experience in both government and academic settings. In his workshop, AI and Quantum Technology: The Duality of Hype and Anti-Hype, he’ll break down key concepts in AI and quantum tech while offering perspectives you won’t find in headlines or classrooms—with a possible live demo on a real quantum computer.`,
             image: "/pics/speakers/aisin.jpg",
             imageAlt: "Speaker placeholder image"
         },
         {
             name: "Ms. Belen Avelar",
-            bio: `Belen Avelar is a second-year PhD student at the University of Maryland, Baltimore, where she studies bone metabolism using mouse models. In her workshop, she’ll share her journey to graduate school—including college choices, research experiences, and the application process—along with an introduction to biomedical research and practical advice for navigating college and exploring science careers. Perfect for students curious about the path from college to the lab.`,
+            bio: `Ms. Belen Avelar is a second-year PhD student at the University of Maryland, Baltimore, where she studies bone metabolism using mouse models. In her workshop, she’ll share her journey to graduate school—including college choices, research experiences, and the application process—along with an introduction to biomedical research and practical advice for navigating college and exploring science careers. Perfect for students curious about the path from college to the lab.`,
             image: "/pics/speakers/avelar.jpg",
             imageAlt: "Headshot of Ms. Belen Avelar"
         },
@@ -39,7 +39,7 @@ export default function Speakers() {
         },
         {
             name: "Dr. Lisa Scheifele",
-            bio: "Speaker profiles coming soon!",
+            bio: `​Dr. Lisa Scheifele is an Associate Professor of Biology at Loyola University Maryland, where she also serves as the department chair. Her research encompasses molecular biology and genetics, with a focus on transposable elements and genome stability. She has contributed to the synthesis of functional designer eukaryotic chromosomes and has been involved in teaching synthetic biology and bioinformatics to undergraduates. Additionally, Dr. Scheifele is the executive director of the Baltimore Underground Science Space (BUGSS), a community laboratory dedicated to promoting citizen science and biotechnology education. ​At the RISE conference, Dr. Scheifele will discuss engineering genomes, community science, and insulin production for health equity.`,
             image: "/pics/speakers/scheifele.jpg",
             imageAlt: "Speaker placeholder image"
         },
@@ -51,7 +51,7 @@ export default function Speakers() {
         },
         {
             name: "Dr. Bipendra Basnyat",
-            bio: "Speaker profiles coming soon!",
+            bio: `Dr. Bipen is a professor of Artificial Intelligence and Computer Vision at UMBC and the founder of AI SENSE, a deep-tech company developing AI-driven solutions for environmental resilience. His work spans intelligent vegetation monitoring, human-wildlife coexistence, and real-time flood detection. As part of his PhD, he developed FloodBot, an AI-powered early flood alert system piloted in Old Ellicott City. Through cross-sector collaborations in the U.S. and Nepal, he bridges research and practice to apply AI for public good. At the RISE conference, Dr. Bipen will introduce AI Coexist, an AI-powered platform for ethical human-wildlife coexistence. Using computer vision and adaptive acoustic deterrents, it protects vegetation and property without harming animals. His workshop will explore how AI can foster a balanced relationship between technology and nature.`,
             image: "/pics/speakers/basnyat.jpg",
             imageAlt: "Speaker placeholder image"
         },
