@@ -20,7 +20,7 @@ export default function About() {
             <p>
                 This year, RISE will be held at Centennial High School 
                 <a className="link mx-1 text-primary-300" href="https://maps.app.goo.gl/vRjrU1QYevxyWkRS8" target="_blank" rel="noopener noreferrer">(4300 Centennial Lane, Ellicott City, MD, 21042)</a>
-                on April 2nd, 2025 from 5:30PM-9:00PM. 
+                on April 13th, 2026 from 6:00PM-9:00PM.
             </p>
             <h1 className={`${jbm.className} text-primary-300 font-bold text-xl mt-4`}>Admission & Food</h1>
             <p>

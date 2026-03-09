@@ -4,11 +4,11 @@ const jbm = JetBrains_Mono({subsets: ["latin"], style: ["normal"]})
 
 export default function Team() {
     const snhs = [
-        "Ava Rose", "Sarah Hong", "Maxwell Swann", "Nicholas Cui", "Sunny Yuan"
+        "Josephine Ko", "Audray Zheng", "Sophia Liang", "Zena Levy", "Kelly Ji"
     ]
 
     const nmhs = [
-        "Tanvi Gupta", "Martin Meister", "Jaden Li", "Sophie Zhang", "Albert Cao"
+        "Albert Cao", "Ethan Burgoon", "Sophia Liang", "Jacquelyn Gao", "Joe Li", "Kaity Paul"
     ]
     
     return <div className='flex flex-col md:flex-row bg-gray-900 p-4 pt-16 md:p-8 gap-9 md:gap-9 items-top md:pt-20'>

@@ -18,32 +18,28 @@ export default function Schedule() {
                 </thead>
                 <tbody>
                     <tr>
-                        <td>5:30 PM</td>
+                        <td>5:40 PM</td>
                         <td>Speakers check-in</td>
                     </tr>
                     <tr>
-                        <td>5:45 PM</td>
-                        <td>Attendees check-in</td>
-                    </tr>
-                    <tr>
-                        <td>6:00 - 6:20 PM </td>
+                        <td>6:00 - 6:20 PM</td>
                         <td>Opening Ceremony</td>
                     </tr>
                     <tr>
-                        <td>6:20 - 7:00 PM</td>
+                        <td>6:25 - 7:05 PM</td>
                         <td>Workshop 1</td>
                     </tr>
                     <tr>
-                        <td>7:00 - 7:40 PM</td>
+                        <td>7:10 - 7:50 PM</td>
                         <td>Dinner</td>
                     </tr>
                     <tr>
-                        <td>7:40 - 8:20 PM</td>
+                        <td>7:55 - 8:35 PM</td>
                         <td>Workshop 2</td>
                     </tr>
                     <tr>
-                        <td>8:20 - 9:00 PM</td>
-                        <td>Workshop 3</td>
+                        <td>8:40 - 9:00 PM</td>
+                        <td>Closing Ceremony</td>
                     </tr>
                 </tbody>
             </table>

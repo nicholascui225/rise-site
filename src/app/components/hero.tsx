@@ -137,13 +137,12 @@ export default function Hero() {
         <canvas onResize={resizeCall} ref={canvasRef} className="relative top-0 left-0"> </canvas>
         <div className="flex flex-row items-center z-20 absolute top-0 left-0 w-full h-full p-8 bg-opacity-50 bg-slate-950 md:bg-opacity-100 md:bg-transparent md:bg-gradient-to-l md:via-90% md:via-slate-900 md:from-transparent md:to-slate-900">
             <div className="md:w-1/2 w-full">
-                <p className={`${jbm.className} text-slate-200 text-sm mb-1`}>04/02/2025</p>
+                <p className={`${jbm.className} text-slate-200 text-sm mb-1`}>04/13/2026</p>
                 <h1 className={`${jbm.className} text-6xl md:text-8xl font-bold mb-1`}>RISE</h1>
                 <p className="text-sm md:text-base text-primary-300 font-bold">Research in Science and Engineering Conference</p>
                 <p className={`${jbm.className} text-slate-400 text-xs`}>Learn about fascinating research. Develop new passions. Connect with leaders.</p>
                 <div className="flex flex-row mt-4 gap-2">
-                    {/* <button disabled={true} className={`${jbm.className} btn-primary`}>Register (Coming Soon...)</button> */}
-                    <a className={`font-mono btn-primary`} href="https://docs.google.com/forms/d/e/1FAIpQLSdN2Y8Ia2HHhnSjfnNR1OUD_-uVdCE4Wp9KCCzq1VA2x8MJAQ/viewform" target="_blank" rel="noopener noreferrer">Register</a>
+                    <button disabled={true} className={`${jbm.className} btn-primary`}>Register (Coming Soon...)</button>
                     <a className={`font-mono btn-secondary`} href="mailto:chssnhsboard@gmail.com" target="_blank" rel="noopener noreferrer">Contact</a>
                 </div>
             </div>
