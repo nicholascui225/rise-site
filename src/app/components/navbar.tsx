@@ -14,7 +14,7 @@ export default function NavBar() {
             <div className="flex flex-row gap-2 items-center text-sm">
                 {/* <button disabled={true} className={`${jbm.className} btn-primary`}>Register</button> */}
 
-                <button disabled={true} className={`${jbm.className} btn-primary text-sm`}>Register (Coming Soon...)</button>
+                <a className={`${jbm.className} btn-primary text-sm`} href="https://forms.gle/SStwUAb1TAXvZezj7" target="_blank" rel="noopener noreferrer">Interest Form</a>
             </div>
         </div>
 
