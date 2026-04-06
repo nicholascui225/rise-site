@@ -12,7 +12,32 @@ export default function Speakers() {
         imageAlt: string
     }
 
-    const speakers: Speaker[] = []
+    const speakers: Speaker[] = [
+        {
+            name: "Dr. Carolyn Ernst",
+            bio: `Dr. Carolyn Ernst is a planetary scientist who studies the surfaces of planets, moons, and asteroids using spacecraft data, lab experiments, and 3D modeling techniques. In her workshop, she'll share what it's like to work in planetary science, her journey through space missions like DART, Europa Clipper, and Hayabusa2, and the many career paths available in the field—perfect for students interested in astronomy, space exploration, and how we study distant worlds.`,
+            image: "/pics/speakers/ernst.jpg",
+            imageAlt: "Headshot of Dr. Carolyn Ernst"
+        },
+        {
+            name: "Dr. Claire Hur",
+            bio: `Dr. Claire Hur is an Assistant Professor in Mechanical Engineering at Johns Hopkins University, where she studies how tiny fluids move and interact with cells. Her research focuses on building microfluidic devices—small systems that control fluids at the microscale—to better understand cell behavior and develop new tools for medicine. In her workshop, she'll explore how cancer is a collection of many different cell types, why single-cell analysis matters, and how liquid biopsies and microfluidics are advancing cancer research and personalized medicine—perfect for students interested in the intersection of engineering and biology.`,
+            image: "/pics/speakers/hur.jpg",
+            imageAlt: "Headshot of Dr. Claire Hur"
+        },
+        {
+            name: "Dr. Michelle A. Starz-Gaiano",
+            bio: `Dr. Michelle A. Starz-Gaiano is a professor and Chair of the Department of Biological Sciences at UMBC, where she researches the molecular mechanisms of animal development—especially the control of cell motility. Over 18 years, her lab has used fruit flies (Drosophila melanogaster) to identify new, conserved regulators of cell migration, using interdisciplinary approaches that bridge biology and mathematics. In her workshop, she'll explore the genetic control of how cells navigate through their environment.`,
+            image: "/pics/speakers/starz-gaiano.jpg",
+            imageAlt: "Headshot of Dr. Michelle A. Starz-Gaiano"
+        },
+        {
+            name: "Dr. Albert Lau",
+            bio: `Dr. Albert Lau is a professor of biophysics at Johns Hopkins University, where he specializes in computational studies of biological macromolecules, with a particular focus on those found in the brain. He also directs the PhD and Master's programs in biophysics at JHU. In his workshop, he'll introduce the field of biophysics and discuss the kinds of research that biophysicists do—perfect for students curious about how physics and computation come together to understand life at the molecular level.`,
+            image: "/pics/speakers/lau.jpg",
+            imageAlt: "Headshot of Dr. Albert Lau"
+        },
+    ]
 
     return (
         <div className='flex flex-col md:flex-row bg-gray-900 p-4 pt-16 md:p-8 md:pt-20 gap-9 md:gap-9 items-top'>
