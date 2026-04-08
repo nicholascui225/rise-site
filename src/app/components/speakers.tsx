@@ -37,6 +37,42 @@ export default function Speakers() {
             image: "/pics/speakers/lau.jpg",
             imageAlt: "Headshot of Dr. Albert Lau"
         },
+        {
+            name: "Dr. Neiyer Correal",
+            bio: `Dr. Neiyer Correal is an Electrical Engineer at the Johns Hopkins Applied Physics Laboratory. In his workshop, he'll share his career journey and how math and science have shaped his life's trajectory—exploring how mathematical patterns unlock solutions across countless domains, and how science teaches us to stay curious and learn through experience. Expect real-world examples of math and science working together.`,
+            image: "/pics/speakers/correal.jpg",
+            imageAlt: "Headshot of Dr. Neiyer Correal"
+        },
+        {
+            name: "Dr. Leonid Koralov",
+            bio: `Dr. Leonid Koralov is a professor in the Department of Mathematics at the University of Maryland, College Park, where his research spans probability and stochastic processes—including diffusion processes, branching processes, and metastability. He also serves as Director of Graduate Studies in the Mathematics Department. In his workshop, he'll tackle the classic Gambler's Ruin problem: using only high-school mathematics, he'll explore the chances a gambler reaches their goal before going broke, how long the game lasts on average, and the probability it stretches beyond a given number of rounds.`,
+            image: "/pics/speakers/koralov.jpg",
+            imageAlt: "Headshot of Dr. Leonid Koralov"
+        },
+        {
+            name: "Dr. Candice M. Duncan",
+            bio: `Dr. Candice M. Duncan is an Assistant Professor in the College of Agriculture and Natural Resources at the University of Maryland, College Park. Her interdisciplinary research draws on environmental science and chemistry to detect, characterize, and remove contaminants from the environment. Her work has also contributed to understanding the lifestyles of early enslaved African and African American people through chemical soil and water analysis. In her workshop, she'll discuss her road to assistant professorship, her environmental and geoscience research programs, and how she integrates teaching and scholarship.`,
+            image: "/pics/speakers/duncan.jpg",
+            imageAlt: "Headshot of Dr. Candice M. Duncan"
+        },
+        {
+            name: "Dr. Jim Barrow",
+            bio: `Dr. Jim Barrow is a Professor of Pharmacology at Johns Hopkins University and the Chief Drug Development Officer at the Lieber Institute for Brain Development. With 14 years of drug discovery experience at Merck Research Laboratories, over 70 peer-reviewed publications, and 36 patents, he leads research on treatments for psychiatric disorders. In his workshop, he'll give an overview of drug discovery and development—highlighting how chemistry and biology come together—using a calcium channel target as a case study from initial idea to human clinical trial.`,
+            image: "/pics/speakers/barrow.jpg",
+            imageAlt: "Headshot of Dr. Jim Barrow"
+        },
+        {
+            name: "Dr. William Gasarch",
+            bio: `Dr. William Gasarch is a professor in the Computer Science Department at the University of Maryland, with an affiliate appointment in Mathematics. In his workshop, he'll explore the fascinating intersection of math and computer science.`,
+            image: "/pics/speakers/gasarch.jpg",
+            imageAlt: "Headshot of Dr. William Gasarch"
+        },
+        {
+            name: "Dr. Stephen Grill",
+            bio: `Dr. Stephen Grill is a Movement Disorders neurologist specializing in Parkinson's disease, tremor, and dystonia. He treats patients using medications, deep brain stimulation, and botulinum toxin injections. In his workshop, he'll discuss how deep brain stimulation helps people with Parkinson's disease and how it has enabled researchers to better understand the underlying pathophysiology of the disease.`,
+            image: "/pics/speakers/grill.jpg",
+            imageAlt: "Headshot of Dr. Stephen Grill"
+        },
     ]
 
     return (
