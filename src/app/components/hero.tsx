@@ -142,7 +142,7 @@ export default function Hero() {
                 <p className="text-sm md:text-base text-primary-300 font-bold">Research in Science and Engineering Conference</p>
                 <p className={`${jbm.className} text-slate-400 text-xs`}>Learn about fascinating research. Develop new passions. Connect with leaders.</p>
                 <div className="flex flex-row mt-4 gap-2">
-                    <a className={`${jbm.className} btn-primary`} href="https://forms.gle/SStwUAb1TAXvZezj7" target="_blank" rel="noopener noreferrer">Interest Form</a>
+                    <a className={`${jbm.className} btn-primary`} href="https://forms.gle/Tgz6zndSW9Woi7iU8" target="_blank" rel="noopener noreferrer">Register</a>
                     <a className={`font-mono btn-secondary`} href="mailto:chssnhsboard@gmail.com" target="_blank" rel="noopener noreferrer">Contact</a>
                 </div>
             </div>
